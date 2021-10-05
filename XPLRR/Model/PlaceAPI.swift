@@ -39,7 +39,7 @@ class PlaceAPI {
         
     static func getSearchLocation(completion: @escaping ClosureIn<CLLocationCoordinate2D>) {
         let geocoder = CLGeocoder()
-        geocoder.geocodeAddressString("28 Webb Street, Coburg VIC 3058, Australia") { placemarks, error in
+        geocoder.geocodeAddressString(Secrets.myAddress) { placemarks, error in
             if let error = error {
                 // Fail
                 print("Error geocoding: \(error.localizedDescription)")

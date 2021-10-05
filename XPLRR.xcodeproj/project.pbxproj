@@ -26,6 +26,7 @@
 		62FF851E270C63E100DFF70D /* VisitedPlaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FF851D270C63E100DFF70D /* VisitedPlaceList.swift */; };
 		62FF8520270C64F300DFF70D /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FF851F270C64F300DFF70D /* Visit.swift */; };
 		62FF8522270C7D9200DFF70D /* VisitedPlaceListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FF8521270C7D9200DFF70D /* VisitedPlaceListRow.swift */; };
+		62FF852A270C833400DFF70D /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FF8529270C833400DFF70D /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		62FF851D270C63E100DFF70D /* VisitedPlaceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitedPlaceList.swift; sourceTree = "<group>"; };
 		62FF851F270C64F300DFF70D /* Visit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visit.swift; sourceTree = "<group>"; };
 		62FF8521270C7D9200DFF70D /* VisitedPlaceListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitedPlaceListRow.swift; sourceTree = "<group>"; };
+		62FF8529270C833400DFF70D /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				62FF84F4270C4B1600DFF70D /* XPLRRApp.swift */,
+				62FF8529270C833400DFF70D /* Secrets.swift */,
 				62FF8523270C814500DFF70D /* Screens */,
 				62FF8524270C814F00DFF70D /* Views */,
 				62FF8525270C816000DFF70D /* Model */,
@@ -240,6 +243,7 @@
 				62FF8510270C53CA00DFF70D /* PlaceSearchView.swift in Sources */,
 				62FF8516270C59AE00DFF70D /* LoadingView.swift in Sources */,
 				62FF84F7270C4B1600DFF70D /* PlaceListsView.swift in Sources */,
+				62FF852A270C833400DFF70D /* Secrets.swift in Sources */,
 				62FF8522270C7D9200DFF70D /* VisitedPlaceListRow.swift in Sources */,
 				62FF8518270C5F5800DFF70D /* ListDetailView.swift in Sources */,
 				62FF850E270C4EA500DFF70D /* PlaceAPI.swift in Sources */,
